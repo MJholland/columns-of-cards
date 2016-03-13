@@ -8,22 +8,77 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: .875rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: .875rem;
+}
+
+h3 {
+  font-style: italic;
+  font-size: .875rem;
+}
+
+p {
+  font-size: .875rem;
+}
+
+section {
+  float: left;
+  width: 25%;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  padding: .875em;
+}
+
+.card1 {
+  background-color: #e2e2e2;
+}
+
+.card2 {
+  background-color: #ccc;
+}
+
+.card3 {
+  background-color: #aaa;
+}
+
+.card4 {
+  background-color: #999;
+  border-right: 1px solid black;
+}
+
+img {
+  width: 40%;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+div {
+  margin: 0 .5em .5em;
+}
+
 .btn {
   color: #fff;
   background-color: #333;
-  border-radius: 8px;
-  border-style: solid;
-  border-color: #fff;
-  border-width: 3px;
   padding: 0.4em 0.75em 0.3em;
   display: inline-block;
   font-size: 1.125rem;
+  border-radius: 8px;
 }
 
 .btn-small {
   font-size: .875rem;
-}
-
-img {
-  width: 25%;
 }
