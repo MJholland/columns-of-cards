@@ -40,6 +40,8 @@ section {
   border-bottom: none;
   border-right: none;
   padding: .875em;
+  padding-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .card1 {
@@ -77,8 +79,13 @@ div {
   display: inline-block;
   font-size: 1.125rem;
   border-radius: 8px;
+  text-decoration: none;
 }
 
 .btn-small {
   font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #000;
 }
