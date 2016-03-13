@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  font: 100%/1.5 normal sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.btn {
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 3px;
+  padding: 0.4em 0.75em 0.3em;
+  display: inline-block;
+  font-size: 1.125rem;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+img {
+  width: 25%;
+}
